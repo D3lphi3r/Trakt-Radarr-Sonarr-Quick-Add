@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Trakt → Radarr/Sonarr Quick Add",
+  "version": "1.2.2",
+  "description": "Unofficial: add movies/shows from Trakt directly to Radarr/Sonarr. Optional: resolve IDs + auto-add to a Trakt list.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://trakt.tv/*",
+    "https://app.trakt.tv/*",
+    "https://api.trakt.tv/*"
+  ],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://trakt.tv/*",
+        "https://app.trakt.tv/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
