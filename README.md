@@ -33,8 +33,7 @@ Optionally, authenticate with Trakt and auto-add newly added items to a selected
    - Enable “Auto add to Trakt list” if desired
   
 ## Screenshots
-<img width="973" height="548" alt="image" src="https://github.com/user-attachments/assets/e0d325fe-a8b5-4c23-a609-5b5ae2e15787" />
-<img width="968" height="517" alt="image" src="https://github.com/user-attachments/assets/c7492233-af01-4799-816b-cb0b40680a41" />
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/23b83198-aa50-4ddf-ba49-d0131a22cb8b" />
 <img width="1280" height="494" alt="image" src="https://github.com/user-attachments/assets/7dbee4c0-d88f-413f-be5b-cf450a7fef77" />
 <img width="1280" height="520" alt="image" src="https://github.com/user-attachments/assets/28f6e3f6-d41d-4671-ae81-92c6885453cb" />
 <img width="1280" height="498" alt="image" src="https://github.com/user-attachments/assets/5135a370-6796-40cd-96b2-a6e930eea92c" />
